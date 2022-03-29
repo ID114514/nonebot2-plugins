@@ -21,7 +21,7 @@ except:
 
 data_dir = path.join(path.dirname(__file__), 'data/')
 img_src = data_dir +  '/output.gif'
-img = MessageSegment.image(f'file://{img_src}')
+img = MessageSegment.image(f'file:/{img_src}')
 
 
 rua_me = on_notice(priority=60)
